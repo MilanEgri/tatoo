@@ -1,0 +1,165 @@
+.galeryWrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: flex-start;
+    max-width: 920px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.galeryWrap .single {
+    width: 200px;
+    cursor: pointer;
+}
+
+.galeryWrap .single img {
+    max-width: 100%;
+}
+
+.galeryWrap .single img:hover {
+    transform: scale(1.02);
+}
+
+.sliderWrap {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.sliderWrap .btnClose,
+.sliderWrap .btnNext,
+.sliderWrap .btnPrev {
+    position: fixed;
+    cursor: pointer;
+    opacity: 0.6;
+    color: #fff;
+    z-index: 9999;
+}
+
+.sliderWrap .btnClose:hover,
+.sliderWrap .btnNext:hover,
+.sliderWrap .btnPrev:hover {
+    opacity: 1;
+}
+
+.sliderWrap .btnClose {
+    top: 40px;
+    right: 40px;
+}
+
+.sliderWrap .btnPrev {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 40px;
+}
+
+.sliderWrap .btnNext {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 40px;
+}
+
+.fullScreenImage {
+    width: calc(100%-40px);
+    height: calc(100%-40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fullScreenImage img {
+    max-width: 100;
+    max-height: 100;
+    pointer-events: none;
+    user-select: none;
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 300px;
+}
+
+.wrapGaleryViewAll {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: black;
+    margin-top: 75px;
+    margin-bottom: 160px;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+
+.wrapGaleryViewAll:hover,
+.wrapGaleryViewAll:focus {
+    opacity: .85;
+}
+
+.galeryCountList {
+    top: 70px;
+    right: 35px;
+    position: fixed;
+    opacity: 0.6;
+    color: #fff;
+    z-index: 9999;
+
+}
+
+.videoFrame {
+    width: 50vw;
+    height: calc(50vw*0.5625)
+}
+
+.wrapGaleryWatchIt {
+    color: white;
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.wrapGaleryWatchItButton {
+    font-size: 75px;
+
+    outline: 1px solid rgba(255, 255, 255, 0.4);
+    outline-offset: 4px;
+    border-radius: 100%;
+
+}
+
+.wrapGaleryWatchItButton:hover {
+    scale: 1.05;
+
+}
+
+.wrapGaleryWatchItText {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.wrapGaleryWatchItText:hover {
+    scale: 1.05;
+}

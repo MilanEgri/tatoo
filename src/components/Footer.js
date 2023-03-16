@@ -23,7 +23,7 @@ const Footer = () => {
                 <h2 className='footerTitle'>Usefull links</h2>
                 <div className='usefullLinkslinks'>
                     <a className='usefullLinkslink' href='#about'>About me</a>
-                    <a className='usefullLinkslink'>My gallery</a>
+                    <a className='usefullLinkslink' href='#gallery'>My gallery</a>
                     <a className='usefullLinkslink' href='#services'>My services</a>
                     <a className='usefullLinkslink' href='#contact'> Contact me</a>
                 </div>

@@ -13,9 +13,9 @@ const Navbar = () => {
         <div className='links'>
           <a className='link' href='#home'>Home</a>
           <a className='link' href='#about'>About</a>
-          <a className='link'>Gallery</a>
+          <a className='link' href='#gallery'>Gallery</a>
+          <a className='link' href='#services'>Services</a>
           <a className='link' href='#interview'>Interview</a>
-          <a className='link'>Articles</a>
           <a className='link' href='#contact'>Contact</a>
         </div>
         <div className='icons'>
