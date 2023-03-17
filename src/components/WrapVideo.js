@@ -16,7 +16,7 @@ const WrapVideo = ({ videoSrc }) => {
 
   return (
     <div>
-      <div className='buttonBox'>
+      <div className='buttonBoxTwo'>
         <div className='wrapGaleryWatchIt' onClick={handleOpenModal}>
           <AiFillPlayCircle className='wrapGaleryWatchItButton'/> <h2 className='wrapGaleryWatchItText'>watch it now</h2>
         </div>

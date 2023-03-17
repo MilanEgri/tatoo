@@ -85,7 +85,13 @@
 }
 
 .buttonBox {
-
+    display: flex;
+    justify-content: center;
+}
+.buttonBoxTwo {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 300px;
 }
 
 .wrapGaleryViewAll {
@@ -103,8 +109,6 @@
     margin-bottom: 160px;
     padding: 20px 40px;
     cursor: pointer;
-    display: flex;
-    justify-content: flex-start;
 }
 
 .wrapGaleryViewAll:hover,
@@ -134,7 +138,6 @@
     gap: 20px;
     align-items: center;
     margin-top: 35px;
-    margin-left: 300px;
 }
 
 .wrapGaleryWatchItButton {
