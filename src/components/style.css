@@ -330,12 +330,12 @@
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
-    line-height: 110%; 
+    line-height: 110%;
     letter-spacing: -0.02em;
     text-transform: capitalize;
     color: #FFFFFF;
     max-width: 885px;
-    
+
     padding-top: 15rem;
     margin-left: 18.5rem;
 }
@@ -619,4 +619,39 @@
     padding-bottom: 75px;
     padding-top: 151px;
     margin-left: 310px;
+}
+
+@media screen and (max-width: 1600px) {
+    .tatooExpert{
+        font-size: 150px;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .links{
+        gap: 3rem;
+    }
+    .logo{
+        margin-left: 1.5rem;
+    }
+    .icons{
+        gap:1rem;
+        margin-left: 1.5rem;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .reviewText{
+        font-size: 30px;
+    }
+    .quotMark {
+        font-size: 302px;
+    }
+    .nameTitle{
+        font-size: 20px;
+    }
+    .moveRight{
+        font-size: 36px;
+    }
+    .moveLeft{
+        font-size: 36px;
+    }
 }
