@@ -670,7 +670,7 @@
         padding-top: 8rem;
     }
 }
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 1350px) {
     .welcome{
         font-size: 98px;
     }
@@ -691,7 +691,7 @@
         margin-left: 4rem;
     }
     .knowMore{
-        margin-left: 4px;
+        margin-left: 4rem;
     }
     
     .stats{
