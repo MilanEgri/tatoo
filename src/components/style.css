@@ -654,4 +654,53 @@
     .moveLeft{
         font-size: 36px;
     }
+    .touchDatas{
+        margin-left: 210px;
+    }
+    .skill{
+        flex-wrap: wrap;
+    }
+    .sphere{
+        border: 6px solid #EEEEEE;
+        padding: 3rem;
+        font-size: 65px;
+        width: 230px;
+    }
+    .rreviewText{
+        padding-top: 8rem;
+    }
+}
+@media screen and (max-width: 1320px) {
+    .welcome{
+        font-size: 98px;
+    }
+    .quote{
+        margin-left: 6rem;
+    }
+    .readMore{
+        margin-right: 25rem;
+        border: white solid;
+    }
+    .storyPicture{
+        scale: 0.8;
+    }
+    .myStroy{
+        font-size: 75px;
+    }
+    .storyDescription{
+        margin-left: 4rem;
+    }
+    .knowMore{
+        margin-left: 4px;
+    }
+    
+    .stats{
+        gap:4rem;
+    }
+    .messageInput{
+        min-width: 250px;
+    }
+    .touchDatas{
+        margin-left: 180px;
+    }
 }
