@@ -748,3 +748,36 @@
         padding-top: 2rem;
     }
 }
+@media screen and (max-width: 1100px) {
+    .logo{
+        scale: 0.6;
+        margin-left: 0.25rem;
+    }
+    .link{
+        font-size: 18px;
+    }
+    .links{
+        gap: 0.95rem;
+    }
+    .icons{
+        gap: 0.5rem;
+        margin-left: 0.25rem;
+    }
+    .welcome{
+        font-size: 55px;
+    }
+    .quote{
+        margin-left: 2rem;
+        font-size: 18px;
+    }
+    .readMore{
+        margin-right: 12rem;
+    }
+    .tatooExpert {
+        font-size: 80px;
+    }
+    .chechkGalery{
+        margin-left: 150px;
+    }
+
+}
