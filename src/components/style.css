@@ -541,6 +541,7 @@
 .usefulLinks {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1.7rem;
 }
 
@@ -622,162 +623,330 @@
 }
 
 @media screen and (max-width: 1600px) {
-    .tatooExpert{
+    .tatooExpert {
         font-size: 150px;
     }
 }
+
 @media screen and (max-width: 1500px) {
-    .links{
+    .links {
         gap: 3rem;
     }
-    .logo{
+
+    .logo {
         margin-left: 1.5rem;
     }
-    .icons{
-        gap:1rem;
+
+    .icons {
+        gap: 1rem;
         margin-left: 1.5rem;
     }
 }
+
 @media screen and (max-width: 1400px) {
-    .reviewText{
+    .reviewText {
         font-size: 30px;
     }
+
     .quotMark {
         font-size: 302px;
     }
-    .nameTitle{
+
+    .nameTitle {
         font-size: 20px;
     }
-    .moveRight{
+
+    .moveRight {
         font-size: 36px;
     }
-    .moveLeft{
+
+    .moveLeft {
         font-size: 36px;
     }
-    .touchDatas{
+
+    .touchDatas {
         margin-left: 210px;
     }
-    .skill{
+
+    .skill {
         flex-wrap: wrap;
     }
-    .sphere{
+
+    .sphere {
         border: 6px solid #EEEEEE;
         padding: 3rem;
         font-size: 65px;
         width: 230px;
     }
-    .rreviewText{
+
+    .rreviewText {
         padding-top: 8rem;
     }
 }
+
 @media screen and (max-width: 1350px) {
-    .welcome{
+    .welcome {
         font-size: 98px;
     }
-    .quote{
+
+    .quote {
         margin-left: 6rem;
     }
-    .readMore{
+
+    .readMore {
         margin-right: 25rem;
         border: white solid;
     }
-    .storyPicture{
+
+    .storyPicture {
         scale: 0.8;
     }
-    .myStroy{
+
+    .myStroy {
         font-size: 75px;
     }
-    .storyDescription{
+
+    .storyDescription {
         margin-left: 4rem;
     }
-    .knowMore{
+
+    .knowMore {
         margin-left: 4rem;
     }
-    
-    .stats{
-        gap:4rem;
+
+    .stats {
+        gap: 4rem;
     }
-    .messageInput{
+
+    .messageInput {
         min-width: 250px;
     }
-    .touchDatas{
+
+    .touchDatas {
         margin-left: 180px;
     }
-    .story{
+
+    .story {
         gap: 2rem;
     }
-    .interviewQuote{
+
+    .interviewQuote {
         font-size: 50px;
     }
 }
+
 @media screen and (max-width: 1300px) {
-    .footer{
+    .footer {
         gap: 2rem;
     }
 }
+
 @media screen and (max-width: 1250px) {
-    .touchDatas{
+    .touchDatas {
         margin-left: 90px;
     }
 }
+
 @media screen and (max-width: 1200px) {
-    .stats{
-        gap:2rem;
+    .stats {
+        gap: 2rem;
     }
-    .sphere{
+
+    .sphere {
         font-size: 45px;
         padding: 1rem;
         width: 170px;
     }
-    .skillText{
+
+    .skillText {
         font-size: 16px;
     }
 }
+
 @media screen and (max-width: 1150px) {
-    .logo{
+    .logo {
 
         margin-left: 0.5rem;
     }
-    .icons{
+
+    .icons {
         margin-right: 0.5rem;
     }
-    .links{
+
+    .links {
         gap: 1.5rem;
     }
-    .reviews{
+
+    .reviews {
         padding-top: 2rem;
     }
 }
+
 @media screen and (max-width: 1100px) {
-    .logo{
+    .logo {
         scale: 0.6;
         margin-left: 0.25rem;
     }
-    .link{
+
+    .link {
         font-size: 18px;
     }
-    .links{
+
+    .links {
         gap: 0.95rem;
     }
-    .icons{
+
+    .icons {
         gap: 0.5rem;
         margin-left: 0.25rem;
     }
-    .welcome{
+
+    .welcome {
         font-size: 55px;
     }
-    .quote{
+
+    .quote {
         margin-left: 2rem;
         font-size: 18px;
     }
-    .readMore{
-        margin-right: 12rem;
+
+    .readMore {
+        margin-right: 10rem;
     }
+
     .tatooExpert {
         font-size: 80px;
     }
-    .chechkGalery{
+
+    .chechkGalery {
         margin-left: 150px;
     }
 
+    .myStroy {
+        font-size: 60px;
+        padding-top: 2rem;
+        max-width: 700px;
+    }
+
+    .texts {
+        padding-top: 100px;
+    }
+
+    .story {
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .sotryTexts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .storyPicture {
+        margin-bottom: 1rem;
+    }
+
+    .reviewText {
+        font-size: 18px;
+        padding-top: 0rem;
+
+    }
+
+    .reviewBTNs {
+        margin-left: 10rem;
+        gap: 0.2rem;
+    }
+
+    .nameTitle {
+        font-size: 14px;
+    }
+    .reviews{
+        margin-left: 70px;
+        padding-bottom: 3rem;
+    }
+    .quotMark{
+        display: none;
+    }
+
+    .touch {
+    }
+    .skillText{
+        font-size: 14px;
+    }
+    .sphere{
+        font-size: 30px;
+        width: 100px;
+            line-height: 50px;
+    }
+    .nameText {
+        width: 150px;
+    }
+
+    .quotMark {
+        font-size: 250px;
+    }
+
+    .interviewQuote {
+        font-size: 40px;
+        margin-left: 15rem;
+    }
+
+    .footer {
+        gap: 1rem;
+    }
+
+    .aboutVoidTattoo {
+        gap: 1rem;
+        max-width: 190px;
+    }
+
+    .footerTitle {
+        font-size: 16px;
+    }
+    .aboutVoidTattooDesciption{
+        font-size: 12px;
+    }
+    .getNewsletter{
+        max-width: 160px;
+    }
+    .emailInput{
+        width: 100px;
+    }
+    .emailSender{
+        justify-content: center;
+        gap:20px
+    }
+    .openedHours{
+        font-size: 12px;
+    }
+    .usefullLinkslinks{
+        font-size: 12px;
+    }
+    .aboutVoidTattooAdresses{
+        font-size: 12px;
+    }
+    .touch{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .getInTouch{
+        font-size: 35px;
+        max-width: 600px;
+        padding-bottom: 35px;
+        text-align: center;
+    }
+    .touchDatas{
+        margin-left: 45px;
+    }
+    .messageInput{
+        min-width:250px;
+        font-size: 14px;
+    }
+    .message{
+        margin-left: 0px;
+    }
+    .adresses{
+        flex-direction: column;
+    }
 }
